@@ -1,0 +1,47 @@
+[
+  {
+    "id": "",
+    "async": "",
+    "language": "",
+    "defer": "",
+    "type": "text/javascript",
+    "src": "",
+    "content": "\n    WebFontConfig = {\n      google:\n      {\n        families: ['Open+Sans+Condensed:300,700:latin', 'Open+Sans:400,300,600,700:latin']\n      }\n    };\n    (function()\n    {\n      var wf = document.createElement('script');\n      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +\n        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';\n      wf.type = 'text/javascript';\n      wf.async = 'true';\n      var s = document.getElementsByTagName('script')[0];\n      s.parentNode.insertBefore(wf, s);\n    })();\n    "
+  },
+  {
+    "id": "",
+    "async": "",
+    "language": "",
+    "defer": "",
+    "type": "application/ld+json",
+    "src": "",
+    "content": "\n    [\n    {\n      \"@context\": \"http://schema.org\",\n      \"@type\": \"Person\",\n      \"name\": \"Jon Schlinkert\",\n      \"description\": \"Co-creator of Assemble.\",\n      \"url\": \"https://github.com/jonschlinkert\"\n    },\n    {\n      \"@context\": \"http://schema.org\",\n      \"@type\": \"Person\",\n      \"name\": \"Brian Woodward\",\n      \"description\": \"Co-creator of Assemble.\",\n      \"url\": \"https://github.com/doowb\"\n    }]\n    "
+  },
+  {
+    "id": "",
+    "async": "",
+    "language": "",
+    "defer": "",
+    "type": "",
+    "src": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js",
+    "content": ""
+  },
+  {
+    "id": "",
+    "async": "",
+    "language": "",
+    "defer": "",
+    "type": "",
+    "src": "public/js/docs.min.js",
+    "content": ""
+  },
+  {
+    "id": "",
+    "async": "",
+    "language": "",
+    "defer": "",
+    "type": "",
+    "src": "",
+    "content": "\n    $('.dismiss').click(function()\n    {\n      $('.navbar-wrap').addClass('fade');\n      $('.anchor-target').addClass('anchor-target-small');\n      $('.navbar-wrap').delay(1000).hide('fast');\n    });\n    "
+  }
+]

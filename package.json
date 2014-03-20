@@ -1,0 +1,43 @@
+{
+  "name": "script-tags",
+  "version": "0.0.3",
+  "description": "Utils for HTML script tags. Extracts script tags from HTML and parse them into objects with useful information.",
+  "homepage": "https://github.com/jonschlinkert/script-tags",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonschlinkert/script-tags"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/script-tags/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/script-tags/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "fs-utils": "~0.3.6"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "cheerio": "~0.13.1"
+  },
+  "keywords": [
+    "script",
+    "scripts",
+    "script tag",
+    "html",
+    "cheerio",
+    "parse",
+    "extract"
+  ]
+}
