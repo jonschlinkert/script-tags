@@ -1,7 +1,7 @@
 {
   "name": "script-tags",
-  "version": "0.0.3",
-  "description": "Utils for HTML script tags. Extracts script tags from HTML and parse them into objects with useful information.",
+  "version": "0.1.1",
+  "description": "Parse HTML script tags into JSON.",
   "homepage": "https://github.com/jonschlinkert/script-tags",
   "author": {
     "name": "Jon Schlinkert",
@@ -25,11 +25,12 @@
     "test": "node test/test.js"
   },
   "devDependencies": {
-    "fs-utils": "~0.3.6"
+    "chai": "^1.9.1",
+    "fs-utils": "^0.4.3",
+    "verb": "^0.2.10"
   },
   "dependencies": {
-    "lodash": "~2.4.1",
-    "cheerio": "~0.13.1"
+    "cheerio": "^0.16.0"
   },
   "keywords": [
     "script",
