@@ -24,5 +24,5 @@ exports.readFixtures = function(src) {
  */
 
 exports.writeExample = function(dest, src) {
-  fs.writeFileSync(dest, JSON.stringify(src, null, 2));
+  fs.writeJSONSync(dest, src);
 };
