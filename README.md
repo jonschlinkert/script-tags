@@ -1,4 +1,5 @@
-# script-tags [![NPM version](https://badge.fury.io/js/script-tags.png)](http://badge.fury.io/js/script-tags)
+# script-tags 
+[![NPM version](https://badge.fury.io/js/script-tags.png)](http://badge.fury.io/js/script-tags)
 
 > Parse HTML script tags into JSON.
 
