@@ -1,9 +1,4 @@
-/**
- * script-tags <https://github.com/jonschlinkert/script-tags>
- *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
- * Licensed under the MIT license.
- */
+'use strict';
 
 var cheerio = require('cheerio');
 
