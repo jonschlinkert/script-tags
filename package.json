@@ -20,6 +20,7 @@
       "url": "https://github.com/jonschlinkert/script-tags/blob/master/LICENSE-MIT"
     }
   ],
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/test.js"
