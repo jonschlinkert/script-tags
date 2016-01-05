@@ -1,7 +1,29 @@
 {
   "name": "script-tags",
-  "version": "0.1.2",
+  "description": "Parse HTML script tags into JSON.",
+  "repository": "jonschlinkert/script-tags",
+  "license": "MIT",
+  "homepage": "https://github.com/jonschlinkert/script-tags",
+  "authors": [
+    "Jon Schlinkert (https://github.com/jonschlinkert)"
+  ],
   "main": [
     "index.js"
+  ],
+  "dependencies": {
+    "cheerio": "^0.19.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.4",
+    "mocha": "*"
+  },
+  "keywords": [
+    "cheerio",
+    "extract",
+    "html",
+    "parse",
+    "script",
+    "script tag",
+    "scripts"
   ]
 }
