@@ -1,6 +1,6 @@
 {
   "name": "script-tags",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Parse HTML script tags into JSON.",
   "homepage": "https://github.com/jonschlinkert/script-tags",
   "author": {
@@ -22,12 +22,11 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "./node_modules/mocha/bin/mocha test/test.js"
   },
   "devDependencies": {
     "chai": "^1.9.1",
-    "fs-utils": "^0.4.3",
-    "verb": "^0.2.10"
+    "mocha": "^2.3.4"
   },
   "dependencies": {
     "cheerio": "^0.16.0"
