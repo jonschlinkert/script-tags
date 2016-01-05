@@ -1,44 +1,40 @@
 {
   "name": "script-tags",
-  "version": "0.1.2",
   "description": "Parse HTML script tags into JSON.",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/script-tags",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jonschlinkert/script-tags"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/script-tags",
   "bugs": {
     "url": "https://github.com/jonschlinkert/script-tags/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/jonschlinkert/script-tags/blob/master/LICENSE-MIT"
-    }
-  ],
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/test.js"
   },
-  "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^2.3.4"
-  },
   "dependencies": {
     "cheerio": "^0.16.0"
   },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "*"
+  },
   "keywords": [
-    "script",
-    "scripts",
-    "script tag",
-    "html",
     "cheerio",
+    "extract",
+    "html",
     "parse",
-    "extract"
-  ]
+    "script",
+    "script tag",
+    "scripts"
+  ],
+  "verb": {
+    "related": {
+      "list": []
+    }
+  }
 }
