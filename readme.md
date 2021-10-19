@@ -39,6 +39,14 @@ console.log(scripts('<script src="bootstrap.js"></script>'));
 //=>   [{ "attrs": { "src": "bootstrap.js" }, "html": ""}]
 ```
 
+Any other tag:
+
+```js
+var scripts = require('script-tags');
+console.log(scripts('<link href="bootstrap.css" type="text/css"/>'));
+//=>   [{ "attrs": { "href": "bootstrap.css", "type": "text/css" }, "html": ""}]
+```
+
 See [example](./test/example.json).
 
 ## Related projects
