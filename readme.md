@@ -43,7 +43,7 @@ Any other tag:
 
 ```js
 var scripts = require('script-tags');
-console.log(scripts('<link href="bootstrap.css" type="text/css"/>'));
+console.log(scripts('<link href="bootstrap.css" type="text/css"/>', 'link')); // Will check for link tag instead of scripts!
 //=>   [{ "attrs": { "href": "bootstrap.css", "type": "text/css" }, "html": ""}]
 ```
 
