@@ -20,7 +20,7 @@ describe('script-tags:', function () {
     assert(actual[0].hasOwnProperty('text'));
   });
   
-  it('should extract linkt tag.', function () {
+  it('should extract link tag.', function () {
     var actual = scripts('<link href="bootstrap.css" type="text/css"></script>', 'link');
     assert(actual[0].attrs.hasOwnProperty('href'));
     assert.equal(actual[0].attrs.href, 'bootstrap.css');
